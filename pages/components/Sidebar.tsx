@@ -1,12 +1,14 @@
+import Link from 'next/link'
+
 export default function Sidebar() {
   return (
     <div
       className="flex flex-col pr-3 items-stretch text-neutral-300 pt-10 border-r border-neutral-700"
     >
-      <a
-        href="/one"
+      <Link
+        href="/semester/one"
         className="text-left py-2 px-2 font-medium rounded-xl hover:bg-neutral-800"
-      >Kỳ 1</a
+      >Kỳ 1</Link
       >
       <a
         href="/two"
